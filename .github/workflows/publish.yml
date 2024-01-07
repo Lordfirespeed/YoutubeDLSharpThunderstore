@@ -42,7 +42,8 @@ jobs:
           path: ./Build/dist/*.zip
 
   upload-release-artifacts:
-    name: Build
+    name: Upload Release Artifacts
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Fetch Sources
@@ -57,7 +58,8 @@ jobs:
         run: gh release upload ${{ github.event.release.tag_name }} thunderstore-build/*.zip
   
   deploy-thunderstore:
-    name: Build
+    name: Deploy to Thunderstore
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Fetch Sources
