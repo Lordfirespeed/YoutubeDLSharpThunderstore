@@ -18,12 +18,6 @@ jobs:
           fetch-depth: 0
           filter: tree:0
 
-      - name: Checkout YoutubeDLSharp release
-        run: |
-          cd submodules/YoutubeDLSharp
-          git checkout ${{ github.event.release.tag_name }}
-          cd ../..
-
       - name: Setup .NET environment
         uses: actions/setup-dotnet@v3
         with:
