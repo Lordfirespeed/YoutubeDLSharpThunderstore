@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        
+        <OutputPath>$(ProjectDir)bin</OutputPath>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <ProjectReference Include="../YoutubeDLSharp/YoutubeDLSharp.csproj" />
+    </ItemGroup>
+
+    <Target Name="PackThunderstore" AfterTargets="PostBuildEvent">
+        <Message Importance="high" Text="MinVer version is $(MinVerVersion)" />
+        <PropertyGroup>
+            <PlainVersion>$(MinVerMajor).$(MinVerMinor).$(MinVerPatch)</PlainVersion>
+        </PropertyGroup>
+        <Exec Command="dotnet tcli build --config-path $(ProjectDir)assets/thunderstore.toml --package-version $(PlainVersion)" />
+        <ItemGroup>
+            <FilesToRename Include="$(ProjectDir)dist/*-$(PlainVersion).zip" />
+        </ItemGroup>
+        <Move SourceFiles="@(FilesToRename)" DestinationFiles="@(FilesToRename -&gt; Replace($(PlainVersion), $(MinVerVersion)))" />
+    </Target>
+</Project>

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Build", "Build\Build.csproj", "{D760CDD3-BF8D-4206-858F-AA2597D8B737}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeDLSharp", "YoutubeDLSharp\YoutubeDLSharp.csproj", "{e4196490-d4e4-4150-bf04-2b20950ce953}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D760CDD3-BF8D-4206-858F-AA2597D8B737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D760CDD3-BF8D-4206-858F-AA2597D8B737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D760CDD3-BF8D-4206-858F-AA2597D8B737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D760CDD3-BF8D-4206-858F-AA2597D8B737}.Release|Any CPU.Build.0 = Release|Any CPU
+		
+		{e4196490-d4e4-4150-bf04-2b20950ce953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {e4196490-d4e4-4150-bf04-2b20950ce953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {e4196490-d4e4-4150-bf04-2b20950ce953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {e4196490-d4e4-4150-bf04-2b20950ce953}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
