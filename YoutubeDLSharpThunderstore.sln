@@ -1,7 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Build", "Build\Build.csproj", "{D760CDD3-BF8D-4206-858F-AA2597D8B737}"
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeDLSharp", "YoutubeDLSharp\YoutubeDLSharp.csproj", "{e4196490-d4e4-4150-bf04-2b20950ce953}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeDLSharp", "YoutubeDLSharp\YoutubeDLSharp.csproj", "{E4196490-D4E4-4150-BF04-2B20950CE953}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VulnerabilityYeeter", "VulnerabilityYeeter\VulnerabilityYeeter.csproj", "{E1C51DE6-0465-427E-8908-3831E347A90A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +18,12 @@ Global
 		{D760CDD3-BF8D-4206-858F-AA2597D8B737}.Release|Any CPU.Build.0 = Release|Any CPU
 		
 		{e4196490-d4e4-4150-bf04-2b20950ce953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-        {e4196490-d4e4-4150-bf04-2b20950ce953}.Debug|Any CPU.Build.0 = Debug|Any CPU
-        {e4196490-d4e4-4150-bf04-2b20950ce953}.Release|Any CPU.ActiveCfg = Release|Any CPU
-        {e4196490-d4e4-4150-bf04-2b20950ce953}.Release|Any CPU.Build.0 = Release|Any CPU
+								{e4196490-d4e4-4150-bf04-2b20950ce953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+								{e4196490-d4e4-4150-bf04-2b20950ce953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+								{e4196490-d4e4-4150-bf04-2b20950ce953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1C51DE6-0465-427E-8908-3831E347A90A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1C51DE6-0465-427E-8908-3831E347A90A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1C51DE6-0465-427E-8908-3831E347A90A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1C51DE6-0465-427E-8908-3831E347A90A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

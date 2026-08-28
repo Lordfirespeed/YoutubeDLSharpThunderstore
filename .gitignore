@@ -41,5 +41,10 @@
 /YoutubeDLSharp/[Bb]in/
 /YoutubeDLSharp/[Oo]bj/
 
+### VulnerabilityYeeter Project
+!/VulnerabilityYeeter
+/VulnerabilityYeeter/[Bb]in/
+/VulnerabilityYeeter/[Oo]bj/
+
 # Explicit exceptions/ignores
 **.user
