@@ -20,7 +20,7 @@ outdir = "../dist"
 
 [[build.copy]]
 source = "../bin/netstandard2.0/YoutubeDLSharp.dll"
-target = "BepInEx/plugins/"
+target = "BepInEx/core/"
 
 [[build.copy]]
 source = "../bin/netstandard2.0/DLSharpVulnerabilityYeeter.dll"
