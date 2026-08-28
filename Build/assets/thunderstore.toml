@@ -23,6 +23,10 @@ source = "../bin/netstandard2.0/YoutubeDLSharp.dll"
 target = "BepInEx/plugins/"
 
 [[build.copy]]
+source = "../bin/netstandard2.0/VulnerabilityYeeter.dll"
+target = "BepInEx/patchers/"
+
+[[build.copy]]
 source = "../../submodules/YoutubeDLSharp/Changelog.md"
 target = "/"
 

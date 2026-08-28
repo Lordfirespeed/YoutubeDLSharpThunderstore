@@ -8,6 +8,7 @@
     
     <ItemGroup>
         <ProjectReference Include="../YoutubeDLSharp/YoutubeDLSharp.csproj" />
+        <ProjectReference Include="../VulnerabilityYeeter/VulnerabilityYeeter.csproj" />
     </ItemGroup>
 
     <Target Name="PackThunderstore" AfterTargets="PostBuildEvent">
